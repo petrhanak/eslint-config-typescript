@@ -11,6 +11,7 @@
 This [configuration](https://github.com/code-quality-resources/eslint-config-typescript/blob/master/index.js) uses the following plugins:
 
 - [`@code-quality/eslint-config-base`](https://github.com/code-quality-resources/eslint-config-base)
+- [`@typescript-eslint/eslint-plugin`](https://github.com/typescript-eslint/typescript-eslint)
 
 ## Install
 
