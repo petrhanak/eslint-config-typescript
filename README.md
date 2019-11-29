@@ -8,7 +8,7 @@
 
 ## Plugins
 
-This [configuration](https://github.com/benmosher/eslint-plugin-import) uses the following plugins:
+This [configuration](https://github.com/code-quality-resources/eslint-config-typescript/blob/master/index.js) uses the following plugins:
 
 - [`@code-quality/eslint-config-base`](https://github.com/code-quality-resources/eslint-config-base)
 
