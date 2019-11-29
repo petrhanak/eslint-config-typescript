@@ -1,3 +1,5 @@
+const base = require('@code-quality/eslint-config-base')
+
 module.exports = {
   extends: require.resolve('@code-quality/eslint-config-base'),
   settings: {
