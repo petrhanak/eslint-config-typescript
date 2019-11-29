@@ -1,0 +1,41 @@
+{
+  "name": "@code-quality/eslint-config-typescript",
+  "description": "The typescript eslint rules you have been looking for.",
+  "version": "0.0.0",
+  "repository": "https://github.com/code-quality-resources/eslint-config-typescript.git",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  },
+  "peerDependencies": {
+    "eslint": ">=6",
+    "eslint-plugin-import": ">=2.18.0"
+  },
+  "dependencies": {
+    "@code-quality/eslint-config-base": "1.2.0",
+    "@typescript-eslint/eslint-plugin": "2.9.0",
+    "@typescript-eslint/parser": "2.9.0"
+  },
+  "devDependencies": {
+    "@code-quality/commitlint-config": "1.1.0",
+    "@code-quality/semantic-release-config": "1.0.1",
+    "husky": "3.1.0",
+    "semantic-release": "15.13.31"
+  },
+  "keywords": [
+    "eslint",
+    "code-style",
+    "eslint-plugin-import",
+    "semantic-release",
+    "config",
+    "general",
+    "basic",
+    "typescript",
+    "types",
+    "typecheck"
+  ]
+}
