@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.1.0...v1.2.0) (2019-11-30)
+
+
+### Features
+
+* use latest base config ([3976b29](https://github.com/code-quality-resources/eslint-config-typescript/commit/3976b298f59c494a7d16f6f711e0d0d79a8fd00d))
+
 # [1.1.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.0.0...v1.1.0) (2019-11-30)
 
 
