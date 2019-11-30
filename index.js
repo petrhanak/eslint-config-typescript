@@ -19,6 +19,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
+    project: './tsconfig.json',
   },
   plugins: [
     '@typescript-eslint',
@@ -26,5 +27,9 @@ module.exports = {
   env: {
     es6: true,
   },
-  rules: {},
+  rules: {
+    'valid-jsdoc': 'off',
+    'no-undef': 'off',
+    'no-unused-vars': 'off',
+  },
 }
