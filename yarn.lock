@@ -33,10 +33,10 @@
     "@commitlint/cli" "^8.2.0"
     "@commitlint/config-conventional" "^8.1.0"
 
-"@code-quality/eslint-config-base@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@code-quality/eslint-config-base/-/eslint-config-base-1.5.0.tgz#6781417d47f5b8de0e24db6da2891e3559193789"
-  integrity sha512-35nXsbv50afghavA7cdOLiufrHrp5PzwJQvcEUhbHK9DSuZu5Khkuyi2ppIx1q3zig6ys3UMioyc4BC5+6lveQ==
+"@code-quality/eslint-config-base@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@code-quality/eslint-config-base/-/eslint-config-base-1.6.0.tgz#011a4051b9458114c12aaae98f714e724c8be285"
+  integrity sha512-tWg6DHUEyNDJYZTrSyuvXgmCVCCXMn5Lzt2c/yLq7P6uFs0yqEG2LvcKlpm8+MGnlhjva1ODJ1VBL5LvZAsfcg==
 
 "@code-quality/semantic-release-config@1.0.1":
   version "1.0.1"
