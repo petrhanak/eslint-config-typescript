@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.3.0...v1.4.0) (2019-12-02)
+
+
+### Features
+
+* set basic rules ([a577891](https://github.com/code-quality-resources/eslint-config-typescript/commit/a577891e1ba0cfd46c9f03f195d8f4d90c9e8bbc))
+
 # [1.3.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.2.0...v1.3.0) (2019-11-30)
 
 
