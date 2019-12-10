@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.5.0...v1.5.1) (2019-12-10)
+
+
+### Bug Fixes
+
+* set semi for single line member-delimiter-style ([391f2d6](https://github.com/code-quality-resources/eslint-config-typescript/commit/391f2d6772a142b049e3c7245b4bdc00606e8bc9))
+
 # [1.5.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.4.0...v1.5.0) (2019-12-10)
 
 
