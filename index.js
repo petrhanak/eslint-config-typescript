@@ -119,7 +119,7 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
-    '@typescript-eslint/promise-function-async': 'error',
+    '@typescript-eslint/promise-function-async': 0,
     '@typescript-eslint/quotes': ['error', 'single', 'avoid-escape'],
     '@typescript-eslint/require-array-sort-compare': 'error',
     '@typescript-eslint/require-await': 'error',
