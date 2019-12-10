@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.5.1...v1.5.2) (2019-12-10)
+
+
+### Bug Fixes
+
+* turn off promise-function-async ([d7d6f0b](https://github.com/code-quality-resources/eslint-config-typescript/commit/d7d6f0b337f7c76a54fb2dd73caa6dd8e15b44e9))
+
 ## [1.5.1](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.5.0...v1.5.1) (2019-12-10)
 
 
