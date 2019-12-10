@@ -80,7 +80,7 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'error',
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-extra-non-null-assertion': 'warn',
-    '@typescript-eslint/no-extra-parens': 'error',
+    '@typescript-eslint/no-extra-parens': 0,
     '@typescript-eslint/no-extraneous-class': ['error', {
       allowConstructorOnly: true,
     }],
