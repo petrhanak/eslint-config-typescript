@@ -24,7 +24,7 @@
     "@code-quality/commitlint-config": "1.1.0",
     "@code-quality/semantic-release-config": "1.0.1",
     "husky": "4.2.0",
-    "semantic-release": "16.0.2"
+    "semantic-release": "16.0.3"
   },
   "keywords": [
     "eslint",
