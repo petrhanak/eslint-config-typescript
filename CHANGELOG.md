@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.7.0...v1.7.1) (2020-02-10)
+
+
+### Bug Fixes
+
+* import/resolver node configuration ([dd0fa05](https://github.com/code-quality-resources/eslint-config-typescript/commit/dd0fa05415047eb3e70b6c96a1c5a41c729a3776))
+
 # [1.7.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.6.0...v1.7.0) (2020-02-10)
 
 
