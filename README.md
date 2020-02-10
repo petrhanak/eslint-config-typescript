@@ -1,6 +1,4 @@
 [![Actions Status](https://github.com/code-quality-resources/eslint-config-typescript/workflows/CI/badge.svg)](https://github.com/code-quality-resources/eslint-config-typescript/actions?query=workflow%3A%22CI%22)
-[![Dependabot](https://badgen.net/dependabot/code-quality-resources/eslint-config-typescript/224793137?icon=dependabot)](https://dependabot.com/)
-[![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/code-quality-resources/eslint-config-typescript&style=flat)](https://mergify.io)
 
 # Eslint Config Typescript
 
