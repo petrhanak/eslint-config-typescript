@@ -10,6 +10,7 @@ This [configuration](https://github.com/code-quality-resources/eslint-config-typ
 
 - [`@code-quality/eslint-config-base`](https://github.com/code-quality-resources/eslint-config-base)
 - [`@typescript-eslint/eslint-plugin`](https://github.com/typescript-eslint/typescript-eslint)
+- [`eslint-import-resolver-typescript`](https://github.com/alexgorbatchev/eslint-import-resolver-typescript)
 
 ## Install
 

@@ -5,18 +5,11 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        ...base.settings['import/resolver'].node,
-        tryExtensions: [
-          ...base.settings['import/resolver'].node.tryExtensions,
-          '.ts',
-          '.tsx',
-          '.d.ts',
-        ],
         extensions: [
+          ...base.settings['import/resolver'].node.extensions,
           '.ts',
           '.tsx',
           '.d.ts',
-          ...base.settings['import/resolver'].node.extensions,
         ],
       },
     },
@@ -26,6 +19,8 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
     project: './tsconfig.json',
+    // TODO: Remove this property in the future
+    createDefaultProgram: true
   },
   plugins: [
     '@typescript-eslint',
@@ -49,8 +44,8 @@ module.exports = {
 
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': ['error', {
-      default: 'array-simple',
-      readonly: 'array-simple',
+      default: 'array',
+      readonly: 'array',
     }],
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/ban-ts-ignore': 'warn',
@@ -60,9 +55,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-assertions': 'error',
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     '@typescript-eslint/explicit-function-return-type': 0,
-    '@typescript-eslint/explicit-member-accessibility': ['error', {
-      accessibility: 'no-public',
-    }],
+    '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/generic-type-naming': 'error',
     '@typescript-eslint/interface-name-prefix': ['error', 'always'],
     '@typescript-eslint/member-delimiter-style': ['error', {
@@ -91,9 +84,9 @@ module.exports = {
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
     '@typescript-eslint/no-namespace': 'error',
-    '@typescript-eslint/no-non-null-assertion': 'error',
+    '@typescript-eslint/no-non-null-assertion': 1,
     '@typescript-eslint/no-parameter-properties': 'error',
-    '@typescript-eslint/no-require-imports': 'error',
+    '@typescript-eslint/no-require-imports': 1,
     '@typescript-eslint/no-this-alias': ['error', {
       allowDestructuring: true,
     }],
@@ -102,7 +95,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-    '@typescript-eslint/no-untyped-public-signature': 'error',
+    '@typescript-eslint/no-untyped-public-signature': 0,
     '@typescript-eslint/no-use-before-define': ['error', {
       functions: false,
       classes: false,
@@ -126,7 +119,7 @@ module.exports = {
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/restrict-template-expressions': 0,
     '@typescript-eslint/semi': ['error', 'never'],
-    '@typescript-eslint/space-before-function-paren': 'error',
+    '@typescript-eslint/space-before-function-paren': 0,
     '@typescript-eslint/triple-slash-reference': 1,
     '@typescript-eslint/typedef': 0,
     '@typescript-eslint/type-annotation-spacing': 'error',
