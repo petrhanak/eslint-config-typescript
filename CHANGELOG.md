@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.7.1...v1.8.0) (2020-02-17)
+
+
+### Features
+
+* update rules ([2bcf881](https://github.com/code-quality-resources/eslint-config-typescript/commit/2bcf881664301939a8cda58a7d5d155790e92e4a))
+
 ## [1.7.1](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.7.0...v1.7.1) (2020-02-10)
 
 
