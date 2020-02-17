@@ -58,7 +58,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/generic-type-naming': 'error',
-    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
+    '@typescript-eslint/interface-name-prefix': 0,
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
         delimiter: 'none',
@@ -72,12 +72,10 @@ module.exports = {
     '@typescript-eslint/no-dynamic-delete': 'error',
     '@typescript-eslint/no-empty-function': 'error',
     '@typescript-eslint/no-empty-interface': 'error',
-    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-extra-non-null-assertion': 'warn',
     '@typescript-eslint/no-extra-parens': 0,
-    '@typescript-eslint/no-extraneous-class': ['error', {
-      allowConstructorOnly: true,
-    }],
+    '@typescript-eslint/no-extraneous-class': 0,
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-for-in-array': 0,
     '@typescript-eslint/no-inferrable-types': 'error',
@@ -86,7 +84,7 @@ module.exports = {
     '@typescript-eslint/no-misused-promises': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/no-non-null-assertion': 1,
-    '@typescript-eslint/no-parameter-properties': 'error',
+    '@typescript-eslint/no-parameter-properties': 0,
     '@typescript-eslint/no-require-imports': 1,
     '@typescript-eslint/no-this-alias': ['error', {
       allowDestructuring: true,
