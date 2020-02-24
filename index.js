@@ -124,5 +124,13 @@ module.exports = {
     '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/unbound-method': 0,
     '@typescript-eslint/unified-signatures': 'error',
+
+    //
+    // Eslint Plugin unused Imports
+    //
+
+    '@typescript-eslint/no-unused-vars': 0,
+    'unused-imports/no-unused-imports-ts': 2,
+    'unused-imports/no-unused-vars-ts': 2,
   },
 }
