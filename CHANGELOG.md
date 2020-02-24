@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.8.0...v1.9.0) (2020-02-24)
+
+
+### Features
+
+* implement unused imports plugin ([7e9b895](https://github.com/code-quality-resources/eslint-config-typescript/commit/7e9b895156a5aa62fb8456ddb68985b8ffe8a610))
+* improve generic-type-naming ([a994316](https://github.com/code-quality-resources/eslint-config-typescript/commit/a994316eb831c1646a1799c4c128eef3d9b64f27))
+
 # [1.8.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.7.1...v1.8.0) (2020-02-17)
 
 
