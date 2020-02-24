@@ -130,7 +130,11 @@ module.exports = {
     //
 
     '@typescript-eslint/no-unused-vars': 0,
+
+    'unused-imports/no-unused-imports': 0,
     'unused-imports/no-unused-imports-ts': 2,
+
+    'unused-imports/no-unused-vars': 0,
     'unused-imports/no-unused-vars-ts': 2,
   },
 }
