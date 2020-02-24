@@ -57,7 +57,7 @@ module.exports = {
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
-    '@typescript-eslint/generic-type-naming': 'error',
+    '@typescript-eslint/generic-type-naming': [2, '^T[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/interface-name-prefix': 0,
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
