@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.9.0...v1.10.0) (2020-02-24)
+
+
+### Features
+
+* fully override unused imports from js files ([b319f36](https://github.com/code-quality-resources/eslint-config-typescript/commit/b319f363d83c87955771b782480aef59070d0841))
+
 # [1.9.0](https://github.com/code-quality-resources/eslint-config-typescript/compare/v1.8.0...v1.9.0) (2020-02-24)
 
 
